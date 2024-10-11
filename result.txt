@@ -1,0 +1,73 @@
+Results of lexical analysis of C language programs
+
+Preprocessor Line: #include<stdio.h>	 token_id: 85
+Keyword:int 		 token_id: 1
+Identifier:main 		 token_id: 33
+Operator: (	 token_id: 78
+Operator: )	 token_id: 79
+Operator: {	 token_id: 80
+Keyword:int 		 token_id: 1
+Identifier:a 		 token_id: 33
+Operator: =	 token_id: 52
+Unsigned xdigit: 0xF1	 token_id: 34
+Operator: ;	 token_id: 77
+Keyword:int 		 token_id: 1
+Identifier:x 		 token_id: 33
+Operator: =	 token_id: 52
+Unsigned integer: 20	 token_id: 34
+Operator: ;	 token_id: 77
+Keyword:float 		 token_id: 2
+Identifier:b 		 token_id: 33
+Operator: =	 token_id: 52
+Float: 20.5678	 token_id: 35
+Operator: ;	 token_id: 77
+Keyword:int 		 token_id: 1
+Error:12a		 Line: 5	 Error id: 3
+Operator: =	 token_id: 52
+Error:0xW2		 Line: 5	 Error id: 3
+Operator: ;	 token_id: 77
+Keyword:if 		 token_id: 25
+Operator: (	 token_id: 78
+Identifier:a 		 token_id: 33
+Operator: <	 token_id: 46
+Identifier:b 		 token_id: 33
+Operator: )	 token_id: 79
+Operator: {	 token_id: 80
+Identifier:a 		 token_id: 33
+Operator: ++	 token_id: 63
+Operator: ;	 token_id: 77
+Identifier:b 		 token_id: 33
+Operator: =	 token_id: 52
+Identifier:b 		 token_id: 33
+Operator: +	 token_id: 38
+Float: 2.0	 token_id: 35
+Operator: ;	 token_id: 77
+Operator: }	 token_id: 81
+Identifier:string 		 token_id: 33
+Identifier:a 		 token_id: 33
+Operator: =	 token_id: 52
+Operator: "	 token_id: 86
+Error: Invalid Escape Sequence -- \p	 Line: 11		 Error id: 8
+Constant String: "abc\p"	 token_id: 37
+Operator: "	 token_id: 86
+Operator: ;	 token_id: 77
+Comment: hello
+
+Keyword:char 		 token_id: 4
+Identifier:s 		 token_id: 33
+Operator: =	 token_id: 52
+Operator: '	 token_id: 87
+Constant Char: \n	 token_id: 36
+Operator: '	 token_id: 87
+Operator: ;	 token_id: 77
+Keyword:return 		 token_id: 21
+Unsigned integer: 0	 token_id: 34
+Operator: ;	 token_id: 77
+Operator: }	 token_id: 81
+
+
+Line: 15
+Preprocessor Line: 1
+key_word: 8
+operator: 33
+error: 2

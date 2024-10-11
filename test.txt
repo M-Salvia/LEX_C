@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main() {
+    int a = 0xF1;
+    int x = 20;
+    float b = 20.5678;
+    int 12a = 0xW2;
+    if (a < b) {
+        a++;
+        b = b + 2.0;
+    }
+
+    string a = "abc\p";
+    //hello
+    char s = '\n';
+    return 0;
+}
